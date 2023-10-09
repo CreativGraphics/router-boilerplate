@@ -1,0 +1,6 @@
+homepage:
+  route: /
+  view: pages/homepage.php
+about:
+  route: /about-us/
+  view: pages/about-us.php
