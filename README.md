@@ -8,8 +8,8 @@ These are the main files you are worried about
 
 ```
 ├── public              - all public files goes here, that means css, js, images etc.
-│   ├── index.php       - don't touch this
-│   ├── .htaccess       - also don't touch this
+│   ├── index.php       - you can add some stuff here, for example require your configs etc. but don't delete anything what's already in there
+│   ├── .htaccess       - don't touch this, it will break
 │   └── **/**           - all other public files you desire to put here
 ├── src                 - some files that handle routing, you don't have to touch that if you don't want to
 └── views               - you will put all your pages inside this directory, 
