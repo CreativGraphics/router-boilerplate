@@ -63,7 +63,7 @@ $this->link("homepage", ['example' => 'param']); // this will generate /?example
 
 If you want to get current route name from your view, you absolutely can, just call `getCurrentRoute` function. For example this is especially usefull when you want to highlight active menu item.
 
-This code will ad class active to the link, if the current route is homepage
+This code will add class active to the link, if the current route is homepage
 ```php
 <a href="<?= $this->link('homepage') ?>" class="<?= $this->getCurrentRoute() == "homepage" ? 'active' : '' ?>">Homepage</a>
 ```
