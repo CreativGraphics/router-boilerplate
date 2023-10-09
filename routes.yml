@@ -4,3 +4,8 @@ homepage:
 about:
   route: /about-us/
   view: pages/about-us.php
+articles:
+  route: /articles/
+dynamic:
+  route: /dynamic-route/{slug}/
+  view: pages/dynamic-route.php
